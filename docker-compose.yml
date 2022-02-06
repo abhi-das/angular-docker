@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  angular:
+    hostname: localhost
+    build: ng-app
+    ports:
+      - "8181:60"
